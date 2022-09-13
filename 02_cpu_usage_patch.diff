@@ -1,0 +1,5 @@
+4c4,5
+< 	usage = psutil.cpu_percent()
+---
+> 	usage = psutil.cpu_percent(1)
+> 	print("DEBUG: usage: {}".format(usage))
